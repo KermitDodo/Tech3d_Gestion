@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* Tableaux */
+
+table, th, td {
+	font-size: 12px;
+}
+
+th {
+	text-align: center;
+}
+
+/* Images */
+
+.editImg {
+	margin: 2px 0 2px 0;
+	padding: 0 5px 0 5px;
+	height: 16px;
+}
+
+.logoEnTete {
+	height : 30px;
+}
+
+/* Formulaires */
+
+textarea, input, select {
+		width: 100%;
+		max-width: 600px;
+}	
+
+legend {
+	font-size: 16px;
+	font-style: italic;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Mise en forme de texte */
+
+.requis {
+	color: red;
+}
+
+.sideBySide {
+	display: inline-block;
+	width: 290px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.titre {
+	font-size: 24px;
+	color: dimgrey;
+}
+
+/* Icone utilisateur */
+
+.userIcon {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	align-items: center;
+	background-color: #075890;
+	color: azure;
+	border-radius: 25px;
+	padding: 8px;
+	font-size: 24px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	border: none;
+}
+
+.dropdown-toggle::after {
+	display: none !important;
+}
+
+.dropdown-toggle {
+	text-decoration: none;
+	border: none !important;
+}

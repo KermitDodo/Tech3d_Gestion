@@ -1,0 +1,6 @@
+/PHPMailer
+/.git
+/config
+/sauve_bdd
+test.php
+test2.php
